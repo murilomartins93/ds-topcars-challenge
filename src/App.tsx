@@ -1,6 +1,7 @@
 import "./App.css";
 import CarCard from "./components/CarCard";
 import CommentCard from "./components/CommentCard";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }

@@ -4,7 +4,7 @@ import carImg from "../../assets/car-card.png";
 function CarCard() {
   return (
     <>
-      <div className="ct-carcard">
+      <div className="ct-carcard ct-mt25">
         <div className="ct-img-container">
           <img src={carImg} alt="Car image" />
         </div>
