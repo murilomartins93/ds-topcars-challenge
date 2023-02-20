@@ -1,0 +1,32 @@
+.ct-carcard {
+  max-width: 746px;
+  width: 100%;
+  background-color: var(--ct-card-bg) 0%;
+  border: 1px solid var(--ct-card-border);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.ct-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ct-img-container img {
+  max-width: 391px;
+  width: 100%;
+}
+
+.ct-carcard h1 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ct-fonte-secondary);
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .ct-carcard h1 {
+    font-size: 20px;
+  }
+}
