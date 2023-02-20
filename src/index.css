@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
-  --dtc-bg-primary:#FFF;
-  --dtc-bg-secondary: #C8C8C8;
-  --dtc-bg-terciary: #3C9AF0;
+  --ct-bg-primary:#FFF;
+  --ct-bg-secondary: #C8C8C8;
+  --ct-bg-tertiary: #3C9AF0;
 
-  --dtc-font-primary: #FFF;
-  --dtc-fonte-secondary: #5E5E5E;
-  --dtc-font-terciary: #3C9AF0;
+  --ct-font-primary: #FFF;
+  --ct-fonte-secondary: #5E5E5E;
+  --ct-font-tertiary: #3C9AF0;
 
-  --dtc-card-bg: #D9D9D9;
-  --dtc-card-border: #3C9AF0;
+  --ct-card-bg: #D9D9D9;
+  --ct-card-border: #3C9AF0;
 
-  --dtc-footer-bg: #3C9AF0;
+  --ct-footer-bg: #3C9AF0;
 }
 
 * {
@@ -30,5 +30,17 @@ a:hover {
 
 html,
 body {
-  background-color: var(--tc-bg-white);
+  background-color: var(--ct-bg-primary);
+}
+
+/* Generic Styles */
+
+.ct-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.ct-mb20 {
+  margin-bottom: 20px;
 }

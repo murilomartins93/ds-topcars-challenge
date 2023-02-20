@@ -1,9 +1,17 @@
+import Header from "./components/Header";
+
 function App() {
   return (
     <>
-      <div className="App">
-        <h1>HI</h1>
-      </div>
+      <Header />
+      <main>
+        <section id="ct-cars-cardlist">
+
+        </section>
+        <section id="ct-comments">
+
+        </section>
+      </main>
     </>
   );
 }

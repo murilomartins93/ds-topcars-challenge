@@ -1,0 +1,15 @@
+.ct-header {
+    background-color: var(--ct-bg-tertiary);
+    height: 70px;
+}
+
+.ct-nav {
+    padding: 20px 0;
+}
+
+.ct-nav h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--ct-font-primary);
+    text-align: center;
+}
