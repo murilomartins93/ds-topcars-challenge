@@ -1,0 +1,8 @@
+.ct-comment-card {
+  background-color: var(--ct-bg-primary);
+  color: var(--ct-font-tertiary);
+  border: 1px solid #3c9af0;
+  border-radius: 12px;
+  padding: 25px 20px;
+  margin-top: 25px;
+}

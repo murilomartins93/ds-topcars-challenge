@@ -1,17 +1,38 @@
-#ct-cars-cardlist {
+#ct-cardlist-section {
+  padding: 25px 20px;
+}
+
+.ct-cars-cardlist-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--ct-fonte-secondary);
+  text-align: center;
+}
+
+.ct-cars-cardlist {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.ct-cars-cardlist-title {
-  padding: 25px 0;
+#ct-comments-section {
+  background-color: var(--ct-bg-secondary);
+  padding: 25px 20px;
+}
+
+.ct-cars-comments-title {
   font-size: 20px;
   font-weight: 700;
+  color: var(--ct-fonte-secondary);
+  text-align: center;
 }
 
 @media (min-width: 1200px) {
   .ct-cars-cardlist-title {
+    font-size: 32px;
+  }
+
+  .ct-cars-comments-title {
     font-size: 32px;
   }
 }
